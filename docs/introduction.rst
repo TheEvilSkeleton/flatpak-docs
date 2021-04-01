@@ -5,6 +5,16 @@ Flatpak is a framework for distributing desktop applications across various Linu
 distributions. It has been created by developers who have a long history of working on the
 Linux desktop, and is run as an independent open source project.
 
+Terminology
+-----------
+
+- Flatpak: the framework for distributing desktop applications across various Linux distributions.
+- Flatpak application: these are the applications the user installs via the ``flatpak`` command or via a
+  different UI like GNOME Software or KDE Discover.
+- Runtime: also called platforms, these are integrated platforms to provide basic utilities needed for a
+  Flatpak application to work.
+- BaseApp: these are integrated platforms for frameworks like Electron.
+- Flatpak bundle: a specific single-file export format which contains a Flatpak app or runtime.
 
 Target audience
 ---------------
